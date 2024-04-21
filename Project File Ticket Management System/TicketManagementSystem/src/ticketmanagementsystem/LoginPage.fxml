@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketmanagementsystem.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="200.0" prefWidth="200.0" stylesheets="@LoginDesign.css">
+         <children>
+            <AnchorPane prefHeight="600.0" prefWidth="400.0" styleClass="left-form" stylesheets="@LoginDesign.css">
+               <children>
+                  <Label layoutX="37.0" layoutY="282.0" text="Book Your Bus Ticket ">
+                     <textFill>
+                        <RadialGradient centerX="0.6546961325966851" centerY="0.7654028436018958" radius="0.5">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color green="0.46052631735801697" blue="0.32236841320991516" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                     <font>
+                        <Font name="Franklin Gothic Heavy" size="30.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="WHITE" glyphName="BUS" layoutX="112.0" layoutY="241.0" size="16em" wrappingWidth="186.0" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="400.0" prefHeight="600.0" prefWidth="400.0" styleClass="right-form" stylesheets="@LoginDesign.css">
+               <children>
+                  <FontAwesomeIconView glyphName="USER" layoutX="168.0" layoutY="114.0" size="7.5em" text="" />
+                  <Label layoutX="159.0" layoutY="127.0" text="Sign In" textFill="#10dd58">
+                     <font>
+                        <Font name="Berlin Sans FB" size="30.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username" layoutX="91.0" layoutY="182.0" onAction="#login" prefHeight="30.0" prefWidth="220.0" promptText="Username" styleClass="textfield" stylesheets="@LoginDesign.css">
+                     <font>
+                        <Font name="Bell MT" size="12.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField fx:id="password" layoutX="90.0" layoutY="228.0" onAction="#login" prefHeight="30.0" prefWidth="220.0" promptText="Password" styleClass="textfield" stylesheets="@LoginDesign.css">
+                     <font>
+                        <Font name="Bell MT" size="12.0" />
+                     </font>
+                  </PasswordField>
+                  <Button fx:id="login" layoutX="164.0" layoutY="271.0" mnemonicParsing="false" onAction="#login" onKeyPressed="#login" prefHeight="40.0" prefWidth="72.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Login" textFill="#a1d7adfa" />
+                  <Button layoutX="347.0" layoutY="-3.0" mnemonicParsing="false" onAction="#close" prefHeight="30.0" prefWidth="53.0" styleClass="close" stylesheets="@LoginDesign.css" textFill="WHITE" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
+                     <graphic>
+                        <FontAwesomeIconView fx:id="close" glyphName="CLOSE" size="20" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

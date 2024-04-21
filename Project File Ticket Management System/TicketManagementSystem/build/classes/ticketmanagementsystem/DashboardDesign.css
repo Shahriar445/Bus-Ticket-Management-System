@@ -1,0 +1,265 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 28, 2023, 12:56:06 AM
+    Author     : Shipon
+*/
+
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+}
+.semi-top-form {
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: 0px .4px .8px .4px;
+}
+.nav-form{
+    -fx-background-color: linear-gradient(to bottom right,#f5c271,#2db05b);
+    
+}
+.nav-btn{
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+    -fx-font-size:16px;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+    -fx-alignment: CENTER_LEFT;
+    
+}
+
+.colse{
+    -fx-background-color: transparent;
+    -fx-cursor:hand;
+}
+.colse:hover{
+    -fx-background-color: #cf0e2e;
+}
+.minimize{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.minimize:hover{
+    -fx-background-color: #ddd;
+}
+
+
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 10px;
+    
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5,0,0,0);
+    
+}
+
+
+
+
+.card1{
+    -fx-background-color: linear-gradient(to right, #1EAE98,#D8B5FF );
+    -fx-background-radius: 8px;
+}
+.card2{
+    -fx-background-color: linear-gradient(to right, #02AABD,#00CDAC);
+    -fx-background-radius: 8px;
+}
+.card3{
+    -fx-background-color: linear-gradient(to right, #11998E , #38EF7D);
+    -fx-background-radius: 8px;
+}
+
+.textfield{
+    -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-font-family: "Tahoma";
+    -fx-font-size:13px;
+    -fx-border-radius: 10px 2px 10px 2px;
+    -fx-border-width: .8px;
+}
+.textfield:focused{
+    -fx-border-color: linear-gradient(to bottom right,#f5c271,#2db05b);
+    -fx-border-width: 1.8px;
+}
+.combobox{
+    -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-font-family:"Tahoma";
+    -fx-font-size:13px;
+    -fx-border-radius: 10px 5px 10px 5px;
+    -fx-border-width: .8px;
+}
+.combobox:focused{
+    -fx-border-color: linear-gradient(to bottom right,#f5c271,#2db05b);
+    -fx-border-width: 1.8px;
+}
+
+.date-box{
+     -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-font-family:"Tahoma";
+    -fx-font-size:13px;
+    
+    -fx-border-width: .8px;
+}
+.date-box:focused{
+    -fx-border-color: linear-gradient(to bottom right,#f5c271,#2db05b);
+    -fx-border-width: 1.8px;
+}
+
+
+
+.logout-btn{
+    -fx-background-color:#26a1ff;
+    -fx-background-radius: 40px;
+    -fx-cursor:hand;
+    -fx-effect: dropshadow(three-pass-box, rgb(0,0,0.6),3,0,0,0);
+}
+
+
+.logout-btn:hover{
+    -fx-background-color:#cf0e52;
+}
+
+.add-btn{
+    -fx-background-color: #0eb8cf;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-font-family: "Arial";
+}
+.add-btn:hover{
+    -fx-background-color: #cf0e52;
+}
+.update-btn{
+    -fx-background-color: #14cf0e;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-font-family: "Arial";
+}
+.update-btn:hover{
+     -fx-background-color: #cf0e52;
+}
+
+.reset-btn{
+    -fx-background-color: #0ecf95;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-font-family: "Arial";
+}
+.reset-btn:hover{
+     -fx-background-color: #cf0e52;
+}
+.delete-btn{
+    -fx-background-color:#4a4546;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-font-family: "Arial";
+}
+.delete-btn:hover{
+     -fx-background-color: #cf0e52;
+}
+
+.search{
+    -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-font-family: "Tahoma";
+    -fx-font-size:13px;
+    -fx-border-radius: 10px 1px 10px 2px;
+    -fx-border-width: .8px;
+    -fx-padding: 0px 0px 0px 28px;
+}
+.search:focused{
+    -fx-border-color: linear-gradient(to bottom right,#f5c271,#2db05b);
+    -fx-border-width: 1.8px;
+}
+
+.table-view{
+    -fx-border-color: linear-gradient(to bottom right,#f5c271,#2db05b);
+    -fx-padding: 0px;
+    -fx-border-radius: 8px;
+    -fx-border-width: 2px;
+}
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right,#f5c271,#2db05b);
+    -fx-background-insets: 0 0 0 0 ;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size:50px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    
+    
+}
+
+.info-card{
+    -fx-background-color: linear-gradient(to bottom right,#f5c271,#2db05b);
+    -fx-background-radius: 0px 5px 5px 0px ;
+}
+
+.io-textfield{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-font-fmaily:"Tahoma";
+    -fx-font-size:13px;
+    
+}
+.select-btn{
+   -fx-background-color: #0eb8cf;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-font-family: "Arial";
+}
+.select-btn:hover{
+    -fx-background-color: #cf0e52;
+}
+.io-reset-btn{
+    -fx-background-color: #0ecf95;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-font-family: "Arial";
+}
+.io-reset-btn:hover{
+     -fx-background-color: #cf0e52;
+}
+.label-info{
+    -fx-border-color:linear-gradient(to bottom right,#f5c271,#2db05b);
+     -fx-border-radius: 10px 2px 10px 2px ;
+     -fx-font-size:14px;
+     -fx-font-family:"Tahoma";
+     -fx-border-width: 2px;
+     -fx-padding: 0px 0px 0px 10px;
+     
+}
+.receipt-btn{
+      -fx-background-color: #0bd3d6;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-font-family: "Arial";
+}
+.receipt-btn:hover{
+    -fx-background-color: #cf0e52;
+}
